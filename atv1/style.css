@@ -1,0 +1,52 @@
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 99vw;
+    height: 87vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 2px solid black;
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 5px 0px black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+button:hover{
+    transition: 100ms;
+    transform: translateY(-5px);
+}
+.lk{
+    text-decoration: none;
+    color: black;
+}
+.lk:hover{
+    transition: 0.8s;
+    font-size: 25px;
+}
+#box{
+    border: 2px solid black;
+    padding: 40px;
+    background: white;
+    text-align: center;
+}
